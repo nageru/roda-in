@@ -62,6 +62,7 @@ public final class Constants {
   public static final String LANG_PT = "pt";
   public static final String LANG_ES_CL = "es-cl";
   public static final String LANG_ES = "es";
+  public static final String LANG_CA = "ca";
   public static final String LANG_EN = "en";
   public static final String LANG_HU = "hu";
   public static final String LANG_HR = "hr";
