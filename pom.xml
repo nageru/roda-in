@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.roda</groupId>
@@ -50,7 +50,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/keeps/commons-ip</url>
+            <url>https://maven.pkg.github.com/nageru/commons-ip</url>
         </repository>
     </repositories>
 
@@ -146,7 +146,7 @@
                             <!-- this is false by default, forces the plugin to generate the file -->
                             <generateGitPropertiesFile>true</generateGitPropertiesFile>
                             <!-- The path for the properties file to be generated. See Super Pom
-                                for default variable reference https://maven.apache.org/guides/introduction/introduction-to-the-pom.html -->
+                            for default variable reference https://maven.apache.org/guides/introduction/introduction-to-the-pom.html -->
                             <generateGitPropertiesFilename>
                                 ${project.basedir}/src/main/resources/build.properties
                             </generateGitPropertiesFilename>
@@ -276,7 +276,7 @@
                             <!-- this is false by default, forces the plugin to generate the file -->
                             <generateGitPropertiesFile>true</generateGitPropertiesFile>
                             <!-- The path for the properties file to be generated. See Super Pom
-                                for default variable reference https://maven.apache.org/guides/introduction/introduction-to-the-pom.html -->
+                            for default variable reference https://maven.apache.org/guides/introduction/introduction-to-the-pom.html -->
                             <generateGitPropertiesFilename>
                                 ${project.basedir}/src/main/resources/build.properties
                             </generateGitPropertiesFilename>
