@@ -426,7 +426,7 @@ public class RodaInApplication extends Application {
     langHU = new RadioMenuItem("Magyar");
     langHU.setUserData(Constants.LANG_HU);
     langHU.setToggleGroup(languageGroup);
-    langCA = new RadioMenuItem("Catalan");
+    langCA = new RadioMenuItem("Català");
     langCA.setUserData("ca");
     langCA.setToggleGroup(languageGroup);
     langES_ES = new RadioMenuItem("Español (España)");
