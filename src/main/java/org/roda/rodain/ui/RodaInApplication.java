@@ -92,7 +92,7 @@ public class RodaInApplication extends Application {
   private Stage splashStage;
   // Languages
   private RadioMenuItem langEN, langPT, langHU, langES_CL, langHR, langSV, langCA, langES_ES;
-
+  private Map<Locale,RadioMenuItem> localeMenuItems = new HashMap<>();
   /**
    * The entry point of the application.
    *
@@ -443,7 +443,7 @@ public class RodaInApplication extends Application {
 
     // File
     final ToggleGroup languageGroup = new ToggleGroup();
-    addLanguage(language, languageGroup, "en", "pt_PT", "hu", "es_CL", "hr", "sv", "de", "sl");
+    addLanguage(language, languageGroup, "en", "pt_PT", "hu", "es_CL", "hr", "sv", "de", "sl","ca");
 
     updateSelectedLanguageMenu();
 
